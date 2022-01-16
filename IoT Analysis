@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<title>Digital Sandbox CW2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("background.jpg");
+  min-height: 80%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#home" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#intro" class="w3-button w3-block w3-black">INTRO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#analysis" class="w3-button w3-block w3-black">ANALYSIS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#discussion" class="w3-button w3-block w3-black">DISCUSSION</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Twitter analysis project</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">IOT</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">by Meiqi Yang</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-large" style="background-color:#FFFAFA">
+
+<!-- Intro Container -->
+<div class="w3-container" id="intro">
+  <div class="w3-content" style="max-width:850px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">IOT INTRODUCTION</span></h5>
+    <p>The concept of Internet of Things (IoT) was first introduced in 1999 and has been called the third wave of the world's information industry development after computers and the Internet, and has been developed for more than 20 years now. Nowadays, in our daily life, we can already come into contact with very many IoT products, such as various smart home appliances, smart door locks, etc. These are all relatively mature applications of IoT technology.</p>
+    <br>
+    <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>IOT IS ALSO THE INTERNET</strong></span></h5>
+    <p class="w3-text-grey" style="text-align:justify;font-size:18px">The Internet of Things uses the infrastructure of the Internet as a carrier of information, i.e. modern IoT products must be "things" that are connected to the Internet in some way, and "things" that upload/download data and interact with people via the Internet.</p>
+
+    <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>IOT IS ALL ABOUT "THINGS"</strong></span></h5>
+    <p class="w3-text-grey" style="text-align:justify;font-size:18px">Modern IoT applications are a kind of Internet application, but there is a big difference between IoT applications and traditional Internet applications, that is, the subject of traditional Internet production and consumption of data is human, while the subject of modern IoT production and consumption of data is things. In modern IoT application scenarios, the producers of data are "things", such as smart devices or sensors, and the consumers of data are often also "things".</p>
+
+    <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>IOT AND AI</strong></span></h5>
+    <p class="w3-text-grey" style="text-align:justify;font-size:18px">Artificial intelligence is arguably one of the hottest words in IT in recent years. Looking at the development path of artificial intelligence, we can see that there are two main reasons why the development of artificial intelligence has been able to advance by leaps and bounds.</p>
+    <ul>
+      <li class="w3-text-grey" style="text-align:justify;font-size:18px">The development of hardware has enabled the learning time of deep learning neural networks to be rapidly reduced.</li>
+      <li class="w3-text-grey" style="text-align:justify;font-size:18px">In the age of big data, the cost of acquiring large amounts of data has become lower.</li>
+    </ul>
+    <p class="w3-text-grey" style="text-align:justify;font-size:18px">In fact, the second reason is particularly important. Neural networks, by their very nature, require huge amounts of data to learn, and the amount of effective data available for learning often determines the effectiveness of the final trained neural network, even the importance of the algorithm can be ranked after the amount of data. IoT devices, such as smart home appliances and wearable devices, generate huge amounts of data every day, which, after being processed and cleaned, can be used as good training data to feed the neural network. At the same time, the trained neural network can be reapplied to IoT devices, thus forming a virtuous cycle.</p>
+    <br>
+
+    <div class="w3-panel w3-leftbar" style="background-color:#F5F5F5">
+      <p><i>"IoT technologies are appearing and approaching our lives far earlier than we would expect."</i></p>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The future of <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> is on the <a href="https://twitter.com/hashtag/Edge?src=hash&amp;ref_src=twsrc%5Etfw">#Edge</a>. Here is the Impact Radar of Edge AI per <a href="https://twitter.com/Gartner_inc?ref_src=twsrc%5Etfw">@Gartner_inc</a> The use cases range from autonomous vehicles, robots and drones to streaming analytics to tiny code on consumer devices for wake words.<a href="https://twitter.com/hashtag/CloudComputing?src=hash&amp;ref_src=twsrc%5Etfw">#CloudComputing</a> <a href="https://twitter.com/hashtag/DataScientists?src=hash&amp;ref_src=twsrc%5Etfw">#DataScientists</a> <a href="https://twitter.com/hashtag/CIO?src=hash&amp;ref_src=twsrc%5Etfw">#CIO</a> <a href="https://twitter.com/hashtag/cto?src=hash&amp;ref_src=twsrc%5Etfw">#cto</a> <a href="https://twitter.com/hashtag/IoT?src=hash&amp;ref_src=twsrc%5Etfw">#IoT</a> <a href="https://t.co/3tTXuIHquz">pic.twitter.com/3tTXuIHquz</a></p>&mdash; Helen Yu (@YuHelenYu) <a href="https://twitter.com/YuHelenYu/status/1472816226938331146?ref_src=twsrc%5Etfw">December 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<!-- Analysis Container -->
+<div class="w3-container" id="analysis">
+  <div class="w3-content" style="max-width:850px">
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">DATA ANALYSIS</span></h5>
+    <p class="w3-text-grey" style="text-align:justify;font-size:18px">I collected tweet data for #IoT and #Smarthomes / #Smarthome / #Smarttech / #Smartautomation with the idea of comparing how the specific content of the parent and child sets differ. However, a cursory glance at the relevant tweets and data shows that they are not very different in nature, so this study focuses on #IoT.</p>
+    <br>
+
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'IoT');" id="myLink">
+        <div class="tablink">IoT</div>
+      </a>
+    </div>
+
+
+      <div id="IoT" class="w3-container menu w3-padding-48 w3-card">
+        <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>RESULT OVERVIEW (SMARTHOMES)</strong></span></h5>
+        <br>
+        <div class="table-wrapper">
+          <table style="width:100%; border:1px solid #dddddd;
+          text-align: left; padding:8px;">
+
+            <tbody>
+              <tr style="background-color: #D3D3D3">
+                <td style="padding-left:8px">Last tweet</td>
+                <td class="w3-text-grey" style="padding-left:8px">02/01/22 20:57:33</td>
+              </tr>
+              <tr>
+                <td style="padding-left:8px">First Tweet</td>
+                <td class="w3-text-grey" style="padding-left:8px">12/12/18 12:00:01</td>
+              </tr>
+              <tr style="background-color: #D3D3D3">
+                <td style="padding-left:8px">Duration</td>
+                <td class="w3-text-grey" style="padding-left:8px">21 days 8 hrs 57 mins</td>
+              </tr>
+              <tr>
+                <td style="padding-left:8px">Approx Hours</td>
+                <td class="w3-text-grey" style="padding-left:8px">513</td>
+              </tr>
+              <tr style="background-color: #D3D3D3">
+                <td style="padding-left:8px">Total Tweets</td>
+                <td class="w3-text-grey" style="padding-left:8px">11,181</td>
+              </tr>
+              <tr>
+                <td style="padding-left:8px">Tweets Per Hour</td>
+                <td class="w3-text-grey" style="padding-left:8px">22</td>
+              </tr>
+            </tbody>
+          </table></div><br>
+          <br>
+          <iframe title="Tweets volume #Smarthomes" aria-label="Interactive line chart" id="datawrapper-chart-xdjpm" src="https://datawrapper.dwcdn.net/xdjpm/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+          </script>
+          <br><br><br>
+
+      <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>RESULT OVERVIEW (IOT)</strong></span></h5>
+      <br>
+													<div class="table-wrapper">
+														<table style="width:100%; border:1px solid #dddddd;
+                            text-align: left; padding:8px;">
+
+                              <tbody>
+																<tr style="background-color: #D3D3D3">
+																	<td style="padding-left:8px">Last tweet</td>
+																	<td class="w3-text-grey" style="padding-left:8px">12/31/21 15:42:56</td>
+																</tr>
+																<tr>
+																	<td style="padding-left:8px">First Tweet</td>
+																	<td class="w3-text-grey" style="padding-left:8px">12/29/21 23:09:05</td>
+																</tr>
+																<tr style="background-color: #D3D3D3">
+																	<td style="padding-left:8px">Duration</td>
+																	<td class="w3-text-grey" style="padding-left:8px">1 days 16 hrs 33 mins</td>
+																</tr>
+																<tr>
+																	<td style="padding-left:8px">Approx Hours</td>
+																	<td class="w3-text-grey" style="padding-left:8px">40</td>
+																</tr>
+																<tr style="background-color: #d8bfd8">
+																	<td style="color:white; padding-left:8px">Total Tweets</td>
+																	<td style="color:white; padding-left:8px">28,756</td>
+																</tr>
+																<tr>
+																	<td style="padding-left:8px">Tweets Per Hour</td>
+																	<td class="w3-text-grey" style="padding-left:8px">701</td>
+																</tr>
+															</tbody>
+														</table></div><br>
+
+
+
+      <br><br>
+      <div class="flourish-embed flourish-chart" data-src="visualisation/8392301"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+      <br><br>
+      <iframe title="Tweets volume #IoT" aria-label="Interactive line chart" id="datawrapper-chart-yDl0O" src="https://datawrapper.dwcdn.net/yDl0O/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+      </script>
+      <br><br>
+
+      <div class="w3-panel w3-leftbar">
+        <blockquote class="w3-text-grey">This graph shows the number of tweets generated during this period, with an average of two peak tweeting times a day and a maximum of 1,000 tweets. Also, the time interval between each peak is the same, so my personal guess is that it's possible that the tweeter set up the tweets to be retweeted at a fixed time each day. <br><br>To confirm my thoughts, I next analysed the tweet accounts of the top twenty retweeters.</blockquote>
+      </div>
+      <hr />
+      <br>
+
+      <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>THE TOP TWEETERS</strong></span></h5>
+      <iframe title="" aria-label="Table" id="datawrapper-chart-VPPWG" src="https://datawrapper.dwcdn.net/VPPWG/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="854"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+      </script>
+      <br><br>
+
+      <div class="w3-panel w3-leftbar">
+        <blockquote class="w3-text-grey">When I investigated the top ten Twitter tweeters, I was surprised by their high bot index. When I clicked in to each account to take a closer look I also found that they had the ability to have a high number of tweets tweeted in a relatively short period of time, with seven of them even stating in their description that they used programming.</blockquote>
+      </div>
+      <hr />
+      <br>
+
+
+      <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>BOTS IN TOP TWEETERS</strong></span></h5>
+      <p class="w3-text-grey">When I carefully compared the other data, I found that these accounts all had very high overall bot scores because they had a lot of fake followers, while accounts like real people had spammer scores, self declared and other scores below 1. This seems to indicate that people are more likely to believe tweets from accounts with a high number of followers on the #IoT topic.
+        <br><br><strong style="color:#CD5C5C">Is it possible that with such a highly professional topic, there is no way for what a normal person says to be visible to others?</strong>
+        <br><br>When I removed some of the bot accounts, the top eight highest tweeters of tweets were as follows:
+        <iframe title="" aria-label="Table" id="datawrapper-chart-YU7vT" src="https://datawrapper.dwcdn.net/YU7vT/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="410"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
+      </p>
+      <hr />
+      <br>
+
+      <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>THE TOP RETWEETERS</strong></span></h5>
+      <iframe title="" aria-label="Table" id="datawrapper-chart-QiS89" src="https://datawrapper.dwcdn.net/QiS89/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="411"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+      </script>
+      <hr /><br>
+
+
+      <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>THE TOP RETWEET</strong></span></h5>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How <a href="https://twitter.com/EpikProtocol?ref_src=twsrc%5Etfw">@EpikProtocol</a> and Andy produce Smart Transportation AI Data to train autonomous driving together? <a href="https://twitter.com/Tesla?ref_src=twsrc%5Etfw">@Tesla</a> <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Etfw">@elonmusk</a> <a href="https://twitter.com/oceanprotocol?ref_src=twsrc%5Etfw">@oceanprotocol</a> <a href="https://twitter.com/Fetch_ai?ref_src=twsrc%5Etfw">@Fetch_ai</a> <br>-Watch this video to learn more.<br>If any questions, be free to attend tomorrow&#39;s AMA and ask Andy anything. 😊😊<a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> <a href="https://twitter.com/hashtag/Data?src=hash&amp;ref_src=twsrc%5Etfw">#Data</a> <a href="https://twitter.com/hashtag/Crypto?src=hash&amp;ref_src=twsrc%5Etfw">#Crypto</a> <a href="https://twitter.com/hashtag/IoT?src=hash&amp;ref_src=twsrc%5Etfw">#IoT</a> <a href="https://t.co/4BSRRitHCI">pic.twitter.com/4BSRRitHCI</a></p>&mdash; EpiK Protocol（We are EPKers） (@EpikProtocol) <a href="https://twitter.com/EpikProtocol/status/1472857750875303943?ref_src=twsrc%5Etfw">December 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <p class="w3-text-grey">This tweet shows us how AI, Autopilot, and IoT can be fused together in an experience drive, which comes from Tesla Inc. Tesla is a worthy revolutionary in the field of autonomous driving, both in its technological vision and in the integration of its commercial resources, which is an industry leader. In terms of specific product performance, however, Tesla does not actually hold an overwhelmingly dominant position at present. There is still room for improvement in the development of supply chain technology, environmental dependency and user experience. From a user experience perspective, the new Chinese forces such as Xiaopeng and Weilai are in many cases performing better than Tesla in terms of assisted driving functions. In areas such as mobile internet apps and mobile phones, with a better understanding of domestic consumer needs and experience, many Chinese manufacturers have broken through and achieved leadership.
+      <br><br>In terms of numbers, this is not actually the one with the highest number of retweets. The one with the highest number of retweets is this: </p>
+      <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">✨Avec D-Link les fêtes ne sont jamais finies ! Tentez de remporter 5 prises connectées USB Wi-Fi mydlink DSP-W118.<br><br>Pour être tiré au sort, rien de plus simple <br>RT ce tweet + follow <a href="https://twitter.com/DLink_France?ref_src=twsrc%5Etfw">@DLink_France</a><br><br>TAS des 5 gagnants dans une semaine !<a href="https://twitter.com/hashtag/iot?src=hash&amp;ref_src=twsrc%5Etfw">#iot</a> <a href="https://twitter.com/hashtag/mydlink?src=hash&amp;ref_src=twsrc%5Etfw">#mydlink</a> <a href="https://twitter.com/hashtag/dlink?src=hash&amp;ref_src=twsrc%5Etfw">#dlink</a> <a href="https://twitter.com/hashtag/jeuconcours?src=hash&amp;ref_src=twsrc%5Etfw">#jeuconcours</a> <a href="https://t.co/CoVTdJFAn5">pic.twitter.com/CoVTdJFAn5</a></p>&mdash; D-Link (@DLink_France) <a href="https://twitter.com/DLink_France/status/1475499466119651332?ref_src=twsrc%5Etfw">December 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <p class="w3-text-grey">But as we've seen, it's a sweepstakes tweet for retweets and followers and really contributes nothing to the conversation, so I've ruled it out.</p>
+      <hr /><br>
+
+
+      <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>SENTIMENT ANALYSIS</strong></span></h5><br>
+      <img class="w3-left" style="max-width:670px" src="wordcloud.svg" alt="50 IoT texts">
+      <p class="w3-text-grey">A wordcloud with the top words in this set of tweets using #IoT, was created using the wordclouds.com tool. Using the top 200 tweets, words with frequent use and association with tweets about #nhs emerged. These top words (with frequency of word use) could make up a generic crossword-type sentence on the aspect of IoT that people are interested in as a technology: stock(140), bigdata(88), ai(73), dividend(68), stockmarket(68), mhealth(38), socialmedia(38), healthtech(38).</p>
+      <br><p><span class="w3-tag w3-grey w3-text-white">Second wordcloud with frequency count</span></p>
+      <img src="second wordcloud.png" alt="second wordcloud" style="width: 100%">
+      <p class="w3-text-grey">A second wordcloud analysis using the top 200 tweets was performed on tagcrowd.com which allowed more control on functions such as grouping associated words, minimising articles/common verbs, and drawing out co-hashtags. This second wordcloud led to more illustrative words that linked to associated themes found in the analysis of full tweet texts.
+        <br>We can tell that the highest keywords continue to revolve around areas such as finance, health and media, which is a side-effect of the fact that the development of IoT in these areas is most valued. Words such as stocks(140) and investing(63) were the most mentioned in the tweets, <strong style="color:#CD5C5C">and people's concern for money is something that technological change will not change.</strong>
+        <br>Interestingly, China appears frequently in the keywords, is it possible that the development of IoT in China is gaining importance?</p>
+
+      <hr /><br>
+
+
+      <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>TWEETS AND USER LOCATION</strong></span></h5>
+      <br>
+      <iframe title="" aria-label="Map" id="datawrapper-chart-74dL1" src="https://datawrapper.dwcdn.net/74dL1/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="330"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+      </script><br><hr>
+      <iframe title="" aria-label="Column Chart" id="datawrapper-chart-dsBmY" src="https://datawrapper.dwcdn.net/dsBmY/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="362"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+      </script>
+      <p class="w3-text-grey">Of the 5,448 users, 1,918 have information about geographic location, which represents 35% of the total users. I have selected the top six geographic locations and it is clear that India accounts for a large proportion of the tweets. What's more, Rio de Janeiro in Brazil and Kingdom of Saudi Arabia are the second and third most tweeted city. But because people can name their location as they wish, Internet(791), Worldwide(348), and Earth(319) also appear in the top positions.<br>Looking at the bar chart and the map I find that two very different messages are presented. The map shows that Europe and the USA have significantly more tweeting accounts than any other continent, but if we look at the bar chart alone it is difficult to see the developed regions.</p><hr />
+
+      <br>
+      <h5 style="font-size:16px"><span class="w3-tag w3-wide w3-grey w3-text-white"><strong>DEMOGRAPHICS</strong></span></h5>
+      <br>
+      <iframe title="" aria-label="Column Chart" id="datawrapper-chart-PCR8S" src="https://datawrapper.dwcdn.net/PCR8S/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="480"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+      </script>
+      <p class="w3-text-grey">Demographics can help us better understand which areas and which demographics are more followed when following IoT topics, but unfortunately none of the Twitter accounts provide private information such as their age and country of residence. So I sorted users by their number of friends: over 1,000,000, between 1,000,000 and 100,000, and less than 100,000. Ten of them had more than 1,000,000 friends, so I browsed their Twitter accounts in general.
+      Most of these accounts are CEOs of companies, professors, writers, consultants, etc.</p>
+    </div>
+    <br>
+
+
+
+<!-- Discussion Container -->
+  <div class="w3-container" id="discussion" style="padding-bottom:32px;">
+    <div class="w3-content" style="max-width:850px">
+      <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Topic discussion</span></h5>
+      <p><span class="w3-tag">Above all,</span> this article attempts to clear the fog on the mysterious and widely known IoT space, using collected Twitter data to show us what the leading talking heads are looking at in IoT right now, and to show us that bots are also a great way to help people get the fastest and most focused information about it. What's more, people are no longer confined to indoor IoT, but are also looking at security systems, help with out-of-door parking, multimodal charging devices and more. More thoughtfully, Alexa or other intelligent voice assistants are rarely mentioned in tweets, perhaps because people think that asking for the weather, the time and requesting music is a rare occurrence?</p>
+    </div>
+  </div>
+  <br><br>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-48 w3-large w3-text-white" style="background-color:#D8BFD8">
+  <p>Created by Meiqi Yang</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
